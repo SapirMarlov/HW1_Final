@@ -5,14 +5,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
-
-
-
+ // STUDENT NAME :
+ // 	SAPIR MARLOV 207179169 AND Arkadi vorontsov 319257572
 /*
- * STUDENT NAME :
- * 	SAPIR MARLOV 207179169 AND Arkadi vorontsov 319257572
- */
-/**
  * Unit test for simple App.
  */
 public class AppTest {
@@ -56,9 +51,9 @@ public class AppTest {
 	    @Test
 	    // get an negative 
 	    public void Test_4 () {
-	    	String ExpectedResult = "Error"; // ExpectedResult this variable means what is Expected to get from the test
-	    	int a = -5;
-	    	int b = -5;
+	    	String ExpectedResult = "B"; // ExpectedResult this variable means what is Expected to get from the test
+	    	int a = -10;
+	    	int b = -20;
 	    	String mod = "negatives";
 	    	String ActualResult = tester.Calculate(a, b, mod); // ActualResult this variable means what is Actual to get from the test
 	    	assertEquals(ExpectedResult,ActualResult); 

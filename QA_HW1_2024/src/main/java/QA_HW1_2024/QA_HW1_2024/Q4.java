@@ -1,9 +1,7 @@
 package QA_HW1_2024.QA_HW1_2024;
 
-/*
- * STUDENT NAME :
- * 	SAPIR MARLOV 207179169 AND Arkadi vorontsov 319257572
- */
+//STUDENT NAME :
+// 	SAPIR MARLOV 207179169 AND Arkadi vorontsov 319257572
 public class Q4 {
 	public static String Calculate (double a, double b, String mode) {
 		switch (mode) {
